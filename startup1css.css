@@ -1,0 +1,174 @@
+/*#12a2da*/
+* {
+    
+}
+
+a {
+    text-decoration: none;
+    color:  #12a2dA;
+}
+
+header {
+
+    margin:0 auto;
+    height: 100px;
+    background-color:rgba(255,255,255,0.95);
+    border-bottom: 2px #CCCCCC solid;
+
+    position: fixed; /* Set the navbar to fixed position /
+
+    width: 100%; / Full width */
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+
+
+}
+
+#logo {
+
+    margin:35px;
+    width:20px;
+    float:left;
+    margin-right:20px;
+
+
+}
+
+#textosmenu {
+
+    float:left;
+    height:80px;
+    margin:10px 150px 20px ;
+    border-left: 2px #CCCCCC solid;
+
+
+}
+
+.OPMenu {
+    float:right;
+    margin:30px 30px 20px ;
+
+
+}
+
+#Texto1 {
+    margin-left: 50px;
+}
+
+#seta {
+    width:10px;
+    height:10px;
+}
+
+
+/*                  Parte do header            */
+
+
+.grid {
+    display: grid;
+    grid-template-columns:1fr;
+    /*grid-gap: 5px;*/
+    /*margin: 0 auto;*/
+}
+
+.bloco {
+    margin-top: 103px;
+    background-color: #12a2da ;
+    text-align: center;
+    color: white;
+    height: 80px;
+
+    border-color:#12a2da ;
+    border-width: 5px;
+    /*border-radius: 4px;*/
+    border-style: solid;
+}
+
+.grid2 {
+    /*margin-top: 103px;*/
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    /*margin: 0 auto;*/
+    /*margin-left: 300px;*/
+    background-color: white;
+
+    border-color:#12a2da ;
+    border-width: 5px;
+    /*border-radius: 4px;*/
+    border-style: solid;
+}
+
+.conheca {
+    background-color: white;
+    color: black;
+    height: 400px;
+    /*width: 500px;*/
+    /*grid-row: 1/2;*/
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-top: 150px;
+    margin-left: 40px;
+    background-color:white;
+    /*grid-row: 1/2;*/
+    height: 200px;
+    width: 250px;
+    background-color: white;
+}
+
+.video {
+    background-color: #12a2da ;
+    text-align: center;
+    height: 450px;
+    /*grid-row: 2/3;*/
+
+    border-color:#12a2da ;
+    border-width: 5px;
+    /*border-radius: 4px;*/
+    border-style: solid;
+    
+}
+
+iframe {
+    margin-top: 25px;
+}
+
+.site {
+    background-color: white;
+    text-align: center;
+    /*grid-row: 3/4;*/
+
+    border-color:#12a2da ;
+    border-width: 5px;
+    /*border-radius: 4px;*/
+    border-style: solid;
+}
+
+.processos {
+    /*grid-row: 5/6;*/
+    background-color: white;
+    text-align: center;
+    height: 300px;
+
+    border-color:#12a2da ;
+    border-width: 5px;
+    /*border-radius: 4px;*/
+    border-style: solid;
+}
+
+p {
+    font-size: larger;
+}
+
+.textao {
+    font-size: 40px;
+}
