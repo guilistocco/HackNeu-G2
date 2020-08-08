@@ -5,19 +5,46 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.vagas{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background-color: #12a2da;
+.meio{
 
 }
 
+.vagas{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    background-color: #12a2da;
+}
+
 .vaga{
-    display: flex;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-row: 4/6;
+    background-color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.laterale{
+    grid-row: 4/6;
+    grid-column: 1/3;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.laterald{
+    grid-row: 4/6;
+    grid-column: 7/9;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#primeira{
+
+}
+
+#segunda{
 
 }
