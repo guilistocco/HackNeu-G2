@@ -9,13 +9,30 @@ html{
 }
 
 .meio{
-    max-width: 1200px;
+    max-width: 1250px;
     
+}
+
+p{
+    line-height: 1.75;
 }
 
 a{
     text-decoration: none;
     color:  #12a2dA;
+}
+
+.vaga h2{
+    margin-top: 15px;
+}
+
+.vaga img{
+    max-width: 200px;
+    padding-top: 20px;
+}
+
+.vaga img h2{
+    align-items: center;
 }
 
 .vagas{
@@ -26,7 +43,9 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding: 250px;
+    padding-top: 200px;
+    padding-right: 112.5px;
+    padding-left:112.5px ;
 }
 
 .vaga{
@@ -35,14 +54,37 @@ a{
     border-radius: 4px;
     border-style: solid;
     width: 500px;
-    height: 500px;
+    height: 1200px;
     background-color:rgba(255, 255, 255, 0.493);
     text-align: center;
     margin:25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-header {
-                
+.vaga h3{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.vaga p{
+    text-align: center;
+    max-width: 70%;
+    margin-left: 65px;
+}
+
+.vaga li{
+    text-align: left;
+    margin-left: 65px;
+    line-height: 1.75;
+}
+
+#detalhe{
+    max-width: 90%;
+    margin-left: 25px;
+}
+
+header {   
     margin:0 auto;
     height: 100px;
     background-color:rgba(255,255,255,0.95);
@@ -51,15 +93,6 @@ header {
     position: fixed; /* Set the navbar to fixed position */
     
     width: 100%; /* Full width */
-    
-}
-
-body {
-    
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    
     
 }
 
@@ -74,13 +107,10 @@ body {
 }
 
 #textosmenu {
-   
     float:left;
     height:80px;
     margin:10px 150px 20px ;
     border-left: 2px #CCCCCC solid;
-    
-    
 }
 
 .OPMenu {
