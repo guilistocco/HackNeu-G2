@@ -1,59 +1,261 @@
-header {
-                
-    margin:0 auto;
-    height: 100px;
+
+body{
+    margin:0px;
+}
+
+#header {
+    width:100%;
+    float:left;
+    text-align:center;
     background-color:rgba(255,255,255,0.95);
     border-bottom: 2px #CCCCCC solid;
-
-    position: fixed; /* Set the navbar to fixed position */
-    
-    width: 100%; /* Full width */
-    
+    position: fixed;
 }
-
-body {
-    
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    
-    
-}
-
-#logo {
-
-    margin:35px;
-    width:20px;
+#logo{
+    width:30%;
     float:left;
-    margin-right:20px;
-    
-
 }
 
-#textosmenu {
-   
+a{
+    text-decoration: none;
+}
+    
+#logo l1
+    {
+        cursor:pointer;
+        transition:1s;
+        
+    }
+    #logo l1:hover
+    {
+        color:black;
+    }
+    
+    #menu
+    {
+        float:left;
+        width:70%;
+    }
+    #menu ul
+    {
+          margin-right: 10%;
+          padding: 0;
+          float:right;
+          text-align: center;
+          border-left: 2px #CCCCCC solid;
+    }
+    #menu ul li
+    {
+    cursor:pointer;
+    list-style-type:none;
+    display:inline-block;
+    padding:8px;
+    }
+    
+    #menu ul li a
+    {
+    font-family:Helvetica, Arial, sans-serif;
+    text-decoration:none;
+    color:#12a2da;
+    font-size:20px;
+    }
+    #menu ul li a:hover
+    {
+    color:black;
+    }
+
+
+
+    @media only screen and (max-width: 590px) {
+        #header
+        {
+            font-size:14px;
+        }
+        #logo
+        {
+            width:100%;
+            float:left;
+            text-align:center;
+        }
+        #menu
+        {
+            width:100%;
+            margin: 0 auto;
+        }
+        #menu ul
+        {
+            float:none;
+            margin-right:0px;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        #header
+        {
+            font-size:12px;
+        }
+        #logo l1
+        {
+            margin-bottom:1%;
+    
+        }
+          #menu ul li
+        {
+            display:block;
+        }
+     }
+/*Fim do header*/
+
+/*Começo do primeiro banner*/
+#banner1 {
+    width: 100%; 
+    height: 110px;
+    background-color: #12a2dA;
+    opacity: 0.8;
     float:left;
-    height:80px;
-    margin:10px 150px 20px ;
-    border-left: 2px #CCCCCC solid;
-    
-    
+    margin-top: 90px;
+    color: white;
+
 }
 
-.OPMenu {
-    float:right;
-    margin:30px 30px 20px ;
-    
-    
+#retangulo1 {
+    margin: 30px;
+    float:left;
 }
 
-#Texto1 {
+#texto1ret1 {
+    padding: 40px 20px;
+}
+
+#texto2ret1 {
+    padding: 1px 20px;
+    
+
+}
+
+#retangulo2{
+    margin-right: 150px;
+    float: right;
+    margin-top: 20px;
+}
+
+/*fim do banner 1, banner 2 é uma foto somente*/
+
+#fotop {
+    width: 100%; 
+    margin-top: 10px;
+    height:400px;
+
+}
+
+/*terceiro banner - textos*/
+
+#banner3 {
+
+    width: 100%; 
+    margin-top: 20px;
+    height: 300px;
+}
+
+.iconesb3 {
+
+    width: 40%; 
+    margin-top: 10px;
+    height:100px;
+}
+
+#icone1{
+    float: left;
     margin-left: 50px;
 }
 
-#seta {
-    width:10px;
-    height:10px;
+#icone2{
+    float: right;
+    margin-right: 50px;
 }
+
+.fotinho {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height:60px;
+    display: block;
+}
+
+.textoicones {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #12a2dA;
+}
+
+#foot {
+    background-color:#041E42;
+    opacity: 0.8;
+    border-top: 2px #CCCCCC solid;
+    height: 150px;
+    margin-top: 100px;
+    color: white;
+    text-decoration:none;
+
+}
+
+#parteesquerda {
+    float: left;
+    width: 50%;
+
+}
+
+#partedireita {
+    float: right;
+    width: 50%;
+}
+
+#texto1foot {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#texto2foot{
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    text-align: right;
+}
+
+#logosfoot{
+
+    float: right;
+    width: 250px;
+    margin-right: 90px;
+    margin-top: 1px;
+}
+.loguinho{
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#texto3foot {
+    
+    font-size:25px;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+
+#Seguranca {
+    color: #12a2da;
+    font-size:15px;
+    float: right;
+    margin-right: 50px;
+
+}
+
+
+
+
 
 
