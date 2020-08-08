@@ -1,0 +1,13 @@
+
+
+.lateral-direita {
+    padding: 20px;
+    border: 20px 20px 20px 40px;
+    max-width: 750px;
+    float: right;
+
+}
+
+* {
+    background-color: #12a2da;
+}
