@@ -1,0 +1,100 @@
+body{
+    margin:0px;
+}
+
+#header {
+    width:100%;
+    float:left;
+    text-align:center;
+    background-color:rgba(255,255,255,0.95);
+    border-bottom: 2px #CCCCCC solid;
+    position: fixed;
+}
+#logo{
+    width:30%;
+    float:left;
+}
+    
+#logo l1
+    {
+        cursor:pointer;
+        transition:1s;
+        
+    }
+    #logo l1:hover
+    {
+        color:black;
+    }
+    
+    #menu
+    {
+        float:left;
+        width:70%;
+    }
+    #menu ul
+    {
+          margin-right: 10%;
+          padding: 0;
+          float:right;
+          text-align: center;
+          border-left: 2px #CCCCCC solid;
+    }
+    #menu ul li
+    {
+    cursor:pointer;
+    list-style-type:none;
+    display:inline-block;
+    padding:8px;
+    }
+    
+    #menu ul li a
+    {
+    font-family:Helvetica, Arial, sans-serif;
+    text-decoration:none;
+    color:#12a2dA;
+    font-size:20px;
+    }
+    #menu ul li a:hover
+    {
+    color:black;
+    }
+
+
+
+    @media only screen and (max-width: 590px) {
+        #header
+        {
+            font-size:14px;
+        }
+        #logo
+        {
+            width:100%;
+            float:left;
+            text-align:center;
+        }
+        #menu
+        {
+            width:100%;
+            margin: 0 auto;
+        }
+        #menu ul
+        {
+            float:none;
+            margin-right:0px;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        #header
+        {
+            font-size:12px;
+        }
+        #logo l1
+        {
+            margin-bottom:1%;
+    
+        }
+          #menu ul li
+        {
+            display:block;
+        }
+     }
