@@ -28,10 +28,66 @@ html{
 
 .vaga{
     width: 500px;
-    width: 500px;
+    height: 500px;
     background-color: white;
     text-align: center;
     margin:10px;
 }
 
+header {
+                
+    margin:0 auto;
+    height: 100px;
+    background-color:rgba(255,255,255,0.95);
+    border-bottom: 2px #CCCCCC solid;
 
+    position: fixed; /* Set the navbar to fixed position */
+    
+    width: 100%; /* Full width */
+    
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    
+}
+
+#logo {
+
+    margin:35px;
+    width:20px;
+    float:left;
+    margin-right:20px;
+    
+
+}
+
+#textosmenu {
+   
+    float:left;
+    height:80px;
+    margin:10px 150px 20px ;
+    border-left: 2px #CCCCCC solid;
+    
+    
+}
+
+.OPMenu {
+    float:right;
+    margin:30px 30px 20px ;
+    
+    
+}
+
+#Texto1 {
+    margin-left: 50px;
+}
+
+#seta {
+    width:10px;
+    height:10px;
+}
