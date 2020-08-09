@@ -1,3 +1,15 @@
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.95);
+}
+
+
 a {
     text-decoration: none;
     color:  #12a2dA;
@@ -140,7 +152,7 @@ iframe {
 }
 
 .site {
-    background-color: white;
+    background-color: #12a2da;
     text-align: center;
     /*grid-row: 3/4;*/
 
@@ -165,6 +177,17 @@ iframe {
 p {
     font-size: larger;
 }
+
+button {
+    font-size: 30px;
+    font: Helvetica;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #364b68;
+    color:white;
+    margin-top: 10px;
+}
+
 
 .textao {
     font-size: 40px;
