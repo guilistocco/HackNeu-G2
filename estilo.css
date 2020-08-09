@@ -204,13 +204,16 @@ a{
 
 #parteesquerda {
     float: left;
-    width: 50%;
-
+    
 }
 
 #partedireita {
     float: right;
-    width: 50%;
+    
+}
+
+#copyright{
+    text-align: center;
 }
 
 #texto1foot {
