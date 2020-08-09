@@ -14,6 +14,13 @@ a{
     color:  #12a2dA;
 }
 
+/*      titulo              */
+
+.t{
+    display: grid;
+    
+}
+
 
 /*        header            */
 

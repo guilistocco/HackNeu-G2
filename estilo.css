@@ -10,6 +10,7 @@ html{
 
 .meio{
     max-width: 1250px;
+    width: 100%;
 }
 
 ul{
@@ -67,7 +68,6 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 200px;
     padding-right: 25%;
     padding-left:25%;
 }
@@ -106,6 +106,22 @@ a{
 #detalhe{
     max-width: 90%;
     margin-left: 25px;
+}
+
+/*      titulo              */
+
+.t{
+    padding-top: 5%;
+}
+
+.t p{
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 5px;
+    background: #12a2da;
+    font-size: 35px;
+    color: white;
+    text-align: center;
 }
 
 
