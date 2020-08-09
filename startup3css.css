@@ -9,16 +9,16 @@ a {
 }
 
 header {
-    
+
     width: 100%;
     margin:0 auto;
     height: 100px;
     background-color:rgba(255,255,255,0.95);
     border-bottom: 2px #CCCCCC solid;
 
-    position: fixed; /* Set the navbar to fixed position */ 
+    position: fixed; /* Set the navbar to fixed position /
 
-    width: 100%; /* Full width */
+    width: 100%; / Full width */
 
 }
 
@@ -85,7 +85,7 @@ body {
     color: white;
     height: 80px;
 
-    border-color:#12a2da ;
+    border-color:#12a2da;
     border-width: 5px;
     /*border-radius: 4px;*/
     border-style: solid;
@@ -99,10 +99,11 @@ body {
     /*margin-left: 300px;*/
     background-color: white;
 
-    border-color:#12a2da ;
+    border-color:#12a2da;
     border-width: 5px;
     /*border-radius: 4px;*/
     border-style: solid;
+    height: 730px;
 }
 
 .conheca {
@@ -117,8 +118,8 @@ body {
 }
 
 .logo {
-    margin-top: 150px;
-    margin-left: 40px;
+    margin-top: 140px;
+    margin-left: 80px;
     background-color:white;
     /*grid-row: 1/2;*/
     height: 200px;
