@@ -270,10 +270,6 @@ button {
 }
 
 
-#Seguranca {
-    color: #12a2da;
-    font-size:15px;
-    float: right;
-    margin-right: 50px;
-
+#copyright{
+    text-align: center;
 }
