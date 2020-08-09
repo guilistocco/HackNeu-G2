@@ -1,0 +1,258 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    margin:0px;
+}
+
+/*            header                */
+#header {
+    width:100%;
+    float:left;
+    text-align:center;
+    background-color:#12a2dA;;
+    border-bottom: 2px #CCCCCC solid;
+    position: fixed;
+}
+#logo{
+    width:30%;
+    float:left;
+}
+    
+#logo l1
+    {
+        cursor:pointer;
+        transition:1s;
+        
+    }
+    #logo l1:hover{
+        color:black;
+    }
+    
+    #menu
+    {
+        float:left;
+        width:70%;
+    }
+    #menu ul
+    {
+          margin-right: 10%;
+          padding: 10px;
+          float:right;
+          text-align: center;
+          border-left: 2px #CCCCCC solid;
+    }
+    #menu ul li
+    {
+    cursor:pointer;
+    list-style-type:none;
+    display:inline-block;
+    padding:8px;
+    }
+    
+    #menu ul li a
+    {
+    font-family:Helvetica, Arial, sans-serif;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    }
+    #menu ul li a:hover
+    {
+    color:black;
+    }
+
+
+
+    @media only screen and (max-width: 590px) {
+        #header
+        {
+            font-size:14px;
+        }
+        #logo
+        {
+            width:100%;
+            float:left;
+            text-align:center;
+        }
+        #menu
+        {
+            width:100%;
+            margin: 0 auto;
+        }
+        #menu ul
+        {
+            float:none;
+            margin-right:0px;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        #header
+        {
+            font-size:12px;
+        }
+        #logo l1
+        {
+            margin-bottom:1%;
+    
+        }
+          #menu ul li
+        {
+            display:block;
+        }
+     }
+/*Fim do header*/
+
+
+
+/*                       footer                            */
+
+#foot {
+    background-color:#041E42;
+    opacity: 0.8;
+    border-top: 2px #CCCCCC solid;
+    height: 150px;
+    margin-top: 100px;
+    color: white;
+    text-decoration:none;
+}
+
+#parteesquerda {
+    float: left;
+    width: 50%;
+
+}
+
+#partedireita {
+    float: right;
+    width: 50%;
+}
+
+#texto1foot {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#texto2foot{
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#texto3foot {
+    text-align: center;
+    font-size:25px;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+
+#logosfoot{
+    float: right;
+    width: 325px;
+    margin-right: 50px;
+    margin-top: 1px;
+}
+
+
+.loguinho{
+    max-width: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#copyright{
+    text-align: center;
+}
+
+
+
+
+
+
+/*pagina forms*/
+
+#fundoforms{
+    background-color: cadetblue;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    
+    
+}
+
+/*barra primaria*/
+#baixobarra{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;    
+}
+
+
+
+
+/*formulario*/
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* label */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* botao de submeter */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  /*responsivo*/
+  /* labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /*  inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* layout responsivo */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
