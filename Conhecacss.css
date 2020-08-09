@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+;
+}
+
+.main{
+    background-color: #12a2da;
+    padding-left: 100px;
+}
+
+.top{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.lateral-texto {
+    padding: 20px;
+    margin: 20px;
+    margin-right: 200px;
+    max-width: 400px;
+    float: right;
+
+}
+
+.lateral-imagem {
+    padding: 20px;
+    margin: 20px;
+    margin-right: 200px;
+    max-width: 400px;
+    float: right;
+    background-color: white;
+
+}
+
+.lateral-esquerda {
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    max-width: 400px;
+    float: left;
+    max-width: 400px;
+    background-color: white;
+}
+
+.span1{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 500px;
+
+}
+
+header {
+                
+    margin:0 auto;
+    height: 100px;
+    background-color:rgba(255,255,255,0.95);
+    border-bottom: 2px #CCCCCC solid;
+
+    position: fixed; /* Set the navbar to fixed position */
+    
+    width: 100%; /* Full width */
+    
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo {
+
+    margin:35px;
+    width:20px;
+    float:left;
+    margin-right:20px;
+}
+
+#textosmenu {
+   
+    float:left;
+    height:80px;
+    margin:10px 150px 20px ;
+    border-left: 2px #CCCCCC solid;
+}
+
+.OPMenu {
+    float:right;
+    margin:30px 30px 20px ;
+}
+
+#Texto1 {
+    margin-left: 50px;
+}
+
+#seta {
+    width:10px;
+    height:10px;
+}
+
+

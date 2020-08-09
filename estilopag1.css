@@ -198,12 +198,11 @@ body{
     color: #12a2dA;
 }
 
-#inscreva {
-    display: inline;
+#inscreva{
     background-color:#12a2dA ;
     margin-left: 45%;
-    width: 10%;
-    height: 35px;
+    width: 200px;
+    height: 40px;
     border-radius: 6px;
     font-size: 20px;
     opacity: 0.8;
