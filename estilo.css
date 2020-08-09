@@ -83,7 +83,7 @@ a{
     border-radius: 5px;
     border-style: solid;
     width: 500px;
-    height: 1500px;
+    height: 1600px;
     background-color:rgba(255, 255, 255, 0.493);
     text-align: center;
     margin:25px;
@@ -156,4 +156,93 @@ header {
 #seta {
     width:10px;
     height:10px;
+}
+
+
+/*            em baixo da header              */
+.bloco {
+    margin-top: 103px;
+    background-color: #12a2da ;
+    text-align: center;
+    color: white;
+    height: 80px;
+
+    border-color:#12a2da ;
+    border-width: 5px;
+    /*border-radius: 4px;*/
+    border-style: solid;
+}
+
+.textao {
+    font-size: 40px;
+}
+
+
+
+/*                       footer                            */ 
+
+#foot {
+    background-color:#041E42;
+    opacity: 0.8;
+    border-top: 2px #CCCCCC solid;
+    height: 150px;
+    margin-top: 100px;
+    color: white;
+    text-decoration:none;
+}
+
+#parteesquerda {
+    float: left;
+    width: 50%;
+
+}
+
+#partedireita {
+    float: right;
+    width: 50%;
+}
+
+#texto1foot {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#texto2foot{
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    text-align: right;
+}
+
+#logosfoot{
+    float: right;
+    width: 250px;
+    margin-right: 90px;
+    margin-top: 1px;
+}
+
+#logosfoot img{
+    background-color: white;
+}
+.loguinho{
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#texto3foot {
+    
+    font-size:25px;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+
+#Seguranca {
+    color: #12a2da;
+    font-size:15px;
+    float: right;
+    margin-right: 50px;
+
 }

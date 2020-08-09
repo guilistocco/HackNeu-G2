@@ -4,6 +4,7 @@ body{
 }
 
 #header {
+    opacity: 1;
     width:100%;
     float:left;
     text-align:center;
@@ -198,7 +199,6 @@ a{
     margin-top: 100px;
     color: white;
     text-decoration:none;
-
 }
 
 #parteesquerda {
@@ -225,11 +225,14 @@ a{
 }
 
 #logosfoot{
-
     float: right;
     width: 250px;
     margin-right: 90px;
     margin-top: 1px;
+}
+
+#logosfoot img{
+    background-color: white;
 }
 .loguinho{
     width: 50px;
@@ -253,9 +256,4 @@ a{
     margin-right: 50px;
 
 }
-
-
-
-
-
 
