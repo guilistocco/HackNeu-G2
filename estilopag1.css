@@ -1,4 +1,3 @@
-
 a{
     text-decoration: none;
 }
@@ -122,13 +121,23 @@ body{
 }
 
 #texto1ret1 {
-    padding: 40px 20px;
+    padding: 10px 20px;
     font-size: 25px;
 }
 
 #texto2ret1 {
-    padding: 1px 20px;
+    margin-top : 10px;
+    padding-left: 20px;
     font-size: 25px;
+}
+
+#texto1ret2{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+#getmail{
+    font-size:20px;
 }
 
 #retangulo2{
@@ -188,6 +197,23 @@ body{
     text-align: center;
     color: #12a2dA;
 }
+
+#inscreva {
+    background-color:#12a2dA ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 10%;
+    height: 25px;
+    border-radius: 6px;
+    font-size: 20px;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+}
+
+/*                       footer                            */
 
 #foot {
     background-color:#041E42;
@@ -251,5 +277,9 @@ body{
     float: right;
     margin-right: 50px;
 
+}
+
+#copyright{
+    text-align: center;
 }
 
