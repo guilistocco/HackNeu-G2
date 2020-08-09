@@ -88,7 +88,7 @@ a {
     background-color: #12a2da ;
     text-align: center;
     color: white;
-    height: 80px;
+    height: 100px;
 
     border-color:#12a2da;
     border-width: 5px;
@@ -174,6 +174,16 @@ iframe {
 
 p {
     font-size: larger;
+}
+
+.textao .tip {
+    margin-bottom: 10px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px; 
+    border-radius: 20px; 
+    border-color: #FFFFFF;
+    border-style: outset;
 }
 
 button {
