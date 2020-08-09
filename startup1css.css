@@ -87,9 +87,9 @@ a{
 
 .bloco {
     margin-top: 103px;
-    background-color: white;
+    background-color: #12a2da;
     text-align: center;
-    color: #12a2da;
+    color: white;
     height: 80px;
 
     border-color:#12a2da ;
@@ -151,7 +151,7 @@ iframe {
 }
 
 .site {
-    background-color: white;
+    background-color:#12a2da ;
     text-align: center;
     /*grid-row: 3/4;*/
 
@@ -177,7 +177,22 @@ p {
     font-size: larger;
 }
 
+button {
+    font-size: 30px;
+    font: Helvetica;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #364b68;
+    color:white;
+    margin-top: 10px;
+}
+
+
+
+
+
 .textao {
+    
     font-size: 40px;
 }
 
