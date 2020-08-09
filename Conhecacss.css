@@ -13,6 +13,7 @@ html{
     background-color: #ffffff;
 }
 
+
 .bloco {
     padding-top: 103px;
     background-color: #12a2da;
@@ -24,6 +25,7 @@ html{
     border-width: 5px;
     /*border-radius: 4px;*/
     border-style: solid;
+
 }
 
 .textao .tip {
@@ -40,12 +42,21 @@ html{
     font-size: 40px;
 }
 
+.im-neu{
+    padding: -100px;
+    height: 350px;
+    width: 600px;
+}
 
+.top{
+    margin-left: 45px;
+
+}
 
 .lateral-texto {
     padding: 20px;
-    margin: 20px;
-    margin-right: 200px;
+    margin-top: 100px;
+    margin-right: 100px;
     max-width: 400px;
     float: right;
 
@@ -76,6 +87,13 @@ html{
     margin-left: 60px;
     margin-right: 500px;
 
+}
+
+.emm{
+    margin-left: 18%;
+    text-align: center;
+    padding: 30px;
+    max-width: 800px;
 }
 
 #header {
