@@ -1,1 +1,0 @@
-# HackNeu-G2
