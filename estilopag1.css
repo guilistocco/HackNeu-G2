@@ -1,23 +1,24 @@
 
+a{
+    text-decoration: none;
+}
+
 body{
     margin:0px;
 }
 
+/*            header                */
 #header {
     width:100%;
     float:left;
     text-align:center;
-    background-color:rgba(255,255,255,0.95);
+    background-color:#12a2dA;;
     border-bottom: 2px #CCCCCC solid;
     position: fixed;
 }
 #logo{
     width:30%;
     float:left;
-}
-
-a{
-    text-decoration: none;
 }
     
 #logo l1
@@ -26,8 +27,7 @@ a{
         transition:1s;
         
     }
-    #logo l1:hover
-    {
+    #logo l1:hover{
         color:black;
     }
     
@@ -39,7 +39,7 @@ a{
     #menu ul
     {
           margin-right: 10%;
-          padding: 0;
+          padding: 10px;
           float:right;
           text-align: center;
           border-left: 2px #CCCCCC solid;
@@ -56,7 +56,7 @@ a{
     {
     font-family:Helvetica, Arial, sans-serif;
     text-decoration:none;
-    color:#12a2da;
+    color:white;
     font-size:20px;
     }
     #menu ul li a:hover
@@ -110,7 +110,6 @@ a{
     width: 100%; 
     height: 110px;
     background-color: #12a2dA;
-    opacity: 0.8;
     float:left;
     margin-top: 90px;
     color: white;
@@ -198,7 +197,6 @@ a{
     margin-top: 100px;
     color: white;
     text-decoration:none;
-
 }
 
 #parteesquerda {
@@ -221,30 +219,31 @@ a{
     color: white;
     font-size: 20px;
     width: 250px;
-    text-align: right;
-}
-
-#logosfoot{
-
-    float: right;
-    width: 250px;
-    margin-right: 90px;
-    margin-top: 1px;
-}
-.loguinho{
-    width: 50px;
-    height: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
 }
 
 #texto3foot {
-    
+    text-align: center;
     font-size:25px;
     padding-left: auto;
     padding-right: auto;
     
 }
+
+#logosfoot{
+    float: right;
+    width: 325px;
+    margin-right: 50px;
+    margin-top: 1px;
+}
+
+
+.loguinho{
+    max-width: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 #Seguranca {
     color: #12a2da;
@@ -253,9 +252,4 @@ a{
     margin-right: 50px;
 
 }
-
-
-
-
-
 
